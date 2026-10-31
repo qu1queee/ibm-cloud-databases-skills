@@ -1,0 +1,12 @@
+{
+  "dataservices": {
+    "postgresql": {
+      "storage_gb": 10000,
+      "members": 5,
+      "members_host_flavor": "multitenant",
+      "members_memory_allocation_mb": "8192"
+    }
+  },
+  "resource_plan_id": "databases-for-postgresql-standard",
+  "service_endpoints": "public"
+}
